@@ -28,8 +28,9 @@ STATIC_LIMIT = 100 * 1024        # WhatsApp 静态贴纸上限
 ANIM_LIMIT = 500 * 1024          # WhatsApp 动态贴纸上限
 PACK_SIZE = 30                   # 一个贴纸包最多 30 张
 
+# ↓↓↓ 改成你自己想要的, 会显示在 WhatsApp 的贴纸包信息里 ↓↓↓
 PACK_TITLE = "我的微信表情"
-PACK_AUTHOR = "wleo"
+PACK_AUTHOR = "your name"
 
 
 def fit(im, size=512):
